@@ -1,0 +1,94 @@
+* { 
+    background-color: #fff;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    font-family: Tahoma ,Arial, Helvetica, sans-serif;
+}
+
+.rightPanel {
+    background-color: #c62146;
+    width: 50vw;
+    float: right;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.leftPanel {
+    background-color: #fff;
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.iphone {
+    background-color: #ffffff00;
+    height: 75vh;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 65%;
+    align-items: start;
+}
+
+.text {
+    flex-direction: column;
+}
+
+.words {
+    padding-top: 15px;
+    padding-bottom: 5px;
+}
+
+.images {
+    align-items: start;
+    justify-content: start;
+    padding: 10px;
+    padding-left: 0px;
+    display: flex;
+}
+
+.images img {
+    padding-right: 15px;
+    width: 9.5vw;
+    align-items: start;
+}
+
+.logo {
+    height: 3vw;
+}
+
+h6 {
+    padding-top: 6vh;
+    color: #a2a2a2;
+}
+
+@media only screen and (max-width: 750px) {
+    * {
+        flex-direction: column;
+    }
+
+    .leftPanel {
+        width: 100vw;
+    }
+
+    .rightPanel {
+        float: none;
+        width: 100vw;
+        height: 100vh;
+    }
+
+    .images img {
+    padding-top: 5px;
+    width: 20vw;
+    }
+
+    .logo {
+        height: 8vw;
+    }
+  } 
