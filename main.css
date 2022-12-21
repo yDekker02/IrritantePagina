@@ -30,6 +30,7 @@ body {
 .iphone {
     background-color: #ffffff00;
     height: 75vh;
+    transform: rotate(0.8deg);
 }
 
 .wrapper {
@@ -37,6 +38,7 @@ body {
     flex-direction: column;
     width: 65%;
     align-items: start;
+    transform: rotateX(40deg)
 }
 
 .text {
@@ -60,6 +62,14 @@ body {
     padding-right: 15px;
     width: 9.5vw;
     align-items: start;
+}
+
+.apple {
+    transform: rotate(0.9deg);
+}
+
+.android {
+    transform: rotate(-0.6deg);  
 }
 
 .logo {
