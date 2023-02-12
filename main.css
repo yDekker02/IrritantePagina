@@ -81,6 +81,12 @@ h6 {
     color: #a2a2a2;
 }
 
+button {
+    background-color: #ffffff00;
+    color: #ffffff00;
+    box-shadow: none;
+}
+
 @media only screen and (max-width: 750px) {
     * {
         flex-direction: column;
